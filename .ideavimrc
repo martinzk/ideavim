@@ -1,0 +1,33 @@
+source ~/.ideavim.d/spacemacs.vim
+source ~/.ideavim.d/leader.vim
+
+source ~/.ideavim.d/plugins.vim
+source ~/.ideavim.d/which-key.vim
+source ~/.ideavim.d/mappings.vim
+
+let g:WhichKeyDesc_Applications = "<leader>a +applications"
+source ~/.ideavim.d/applications.vim
+
+let g:WhichKeyDesc_Files = "<leader>f +files"
+source ~/.ideavim.d/files.vim
+
+let g:WhichKeyDesc_Buffers = "<leader>b +buffers"
+source ~/.ideavim.d/buffers.vim
+
+let g:WhichKeyDesc_Search = "<leader>s +search"
+source ~/.ideavim.d/search.vim
+
+let g:WhichKeyDesc_Code = "<leader>c +code"
+source ~/.ideavim.d/code.vim
+
+let g:WhichKeyDesc_Major = "<leader>m +major"
+source ~/.ideavim.d/help.vim
+
+let g:WhichKeyDesc_Error = "<leader>e +errors"
+source ~/.ideavim.d/errors.vim
+
+let g:WhichKeyDesc_Windows = "<leader>w +windows"
+source ~/.ideavim.d/windows.vim
+
+let g:WhichKeyDesc_Quit = "<leader>q +quit"
+source ~/.ideavim.d/quit.vim
