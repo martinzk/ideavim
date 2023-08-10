@@ -6,3 +6,6 @@ map <leader>sf <Action>(Find)
 
 let g:WhichKeyDesc_Search_Replace = "<leader>sr search-replace"
 map <leader>sr <Action>(Replace)
+
+let g:WhichKeyDesc_Search_Nohl = "<leader>sh nohl"
+map <leader>sh :nohl<Cr>

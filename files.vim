@@ -21,5 +21,8 @@ map <leader>fN    <Action>(NewElement)
 let g:WhichKeyDesc_Files_NewClass = "<leader>fn new-class"
 map <leader>fn    <Action>(NewClass)
 
+let g:WhichKeyDesc_Files_OverrideFileType = "<leader>fT override-file-type"
+map <leader>fT    <Action>(OverrideFileTypeAction)
+
 source ~/.ideavim.d/nerdtree.vim
 source ~/.ideavim.d/config.vim

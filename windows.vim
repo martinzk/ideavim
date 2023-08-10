@@ -1,14 +1,34 @@
 " Split window vertically
-let g:WhichKeyDesc_Windows_SplitWindowvertically = "<leader>wv split-window-vertically"
+let g:WhichKeyDesc_Windows_SplitWindowVertically = "<leader>wv split-window-vertically"
 map <leader>wv    <Action>(SplitVertically)
 
 " Split window horizontally
 let g:WhichKeyDesc_Windows_SplitWindowHorizontally = "<leader>ws split-window-horizontally"
 map <leader>ws    <Action>(SplitHorizontally)
 
+" Split and move window vertically
+let g:WhichKeyDesc_Windows_SplitAndMoveWindowVertically = "<leader>wL split-window-vertically"
+map <leader>wL    <Action>(MoveTabRight)
+let g:WhichKeyDesc_Windows_SplitAndMoveWindowVertically = "<leader>wV split-window-vertically"
+map <leader>wV    <Action>(MoveTabRight)
+
+" Split window horizontally
+let g:WhichKeyDesc_Windows_SplitAndMoveWindowHorizontally = "<leader>wJ split-window-horizontally"
+map <leader>wJ    <Action>(MoveTabDown)
+let g:WhichKeyDesc_Windows_SplitAndMoveWindowHorizontally = "<leader>wS split-window-horizontally"
+map <leader>wS    <Action>(MoveTabDown)
+
 " Close window
 let g:WhichKeyDesc_Windows_DeleteWindow = "<leader>wd delete-window"
 map <leader>wd    <Action>(CloseAllEditors)
+
+" Move window
+let g:WhichKeyDesc_Windows_MoveWindow = "<leader>wm move-window"
+map <leader>wm    <Action>(MoveEditorToOppositeTabGroup)
+
+" Move window
+let g:WhichKeyDesc_Windows_MoveWindow = "<leader>wm move-window"
+map <leader>wm    <Action>(MoveEditorToOppositeTabGroup)
 
 " Focus window left
 let g:WhichKeyDesc_Windows_WindowLeftH = "<leader>wh window-left"
@@ -35,5 +55,6 @@ let g:WhichKeyDesc_Windows_UnsplitWindow = "<leader>wu unsplit-window"
 map <leader>wu    <Action>(Unsplit)
 
 " Maximize window
-let g:WhichKeyDesc_Windows_MaximizeWindow = "<leader>wm maximize-window"
-map <leader>wm    <Action>(MaximizeEditorInSplit)
+let g:WhichKeyDesc_Windows_MaximizeWindow = "<leader>wx maximize-window"
+map <leader>wx    <Action>(MaximizeEditorInSplit)
+

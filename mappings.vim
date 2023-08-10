@@ -1,6 +1,7 @@
 ﻿" (Optional) My own vim commands
 nnoremap Y y$
 map gi <Action>(ReSharperGotoImplementation)
+map gf <Action>(FindUsages)
 map [o O<Esc>j
 map ]o o<Esc>k
 

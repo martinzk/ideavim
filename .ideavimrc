@@ -5,11 +5,11 @@ source ~/.ideavim.d/plugins.vim
 source ~/.ideavim.d/which-key.vim
 source ~/.ideavim.d/mappings.vim
 
-let g:WhichKeyDesc_Applications = "<leader>a +applications"
-source ~/.ideavim.d/applications.vim
-
 let g:WhichKeyDesc_Files = "<leader>f +files"
 source ~/.ideavim.d/files.vim
+
+let g:WhichKeyDesc_Jump = "<leader>j +jump"
+source ~/.ideavim.d/jump.vim
 
 let g:WhichKeyDesc_Buffers = "<leader>b +buffers"
 source ~/.ideavim.d/buffers.vim
@@ -20,6 +20,9 @@ source ~/.ideavim.d/search.vim
 let g:WhichKeyDesc_Code = "<leader>c +code"
 source ~/.ideavim.d/code.vim
 
+let g:WhichKeyDesc_Debug = "<leader>c +debug"
+source ~/.ideavim.d/debug.vim
+
 let g:WhichKeyDesc_Major = "<leader>m +major"
 source ~/.ideavim.d/help.vim
 
@@ -29,5 +32,11 @@ source ~/.ideavim.d/errors.vim
 let g:WhichKeyDesc_Windows = "<leader>w +windows"
 source ~/.ideavim.d/windows.vim
 
+let g:WhichKeyDesc_Git = "<leader>g +git"
+source ~/.ideavim.d/git.vim
+
 let g:WhichKeyDesc_Quit = "<leader>q +quit"
 source ~/.ideavim.d/quit.vim
+
+let g:WhichKeyDesc_Yank = "<leader>y +yank"
+source ~/.ideavim.d/yank.vim
