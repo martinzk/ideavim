@@ -1,4 +1,5 @@
-﻿" ideavimrc
+﻿
+" ideavimrc
 let g:WhichKeyDesc_Files_IDE = "<leader>fe +IDE"
 let g:WhichKeyDesc_Files_IDE_ReloadIdeaVimRc = "<leader>fer reload-ideavimrc"
 map <leader>fer :source ~\.ideavimrc<CR>

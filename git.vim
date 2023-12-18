@@ -1,3 +1,4 @@
+
 let g:WhichKeyDesc_Git_Blame = "<leader>gb blame"
 map <leader>gb <Action>(Annotate)
 
@@ -22,3 +23,5 @@ map <leader>gw <Action>(ActivateCommitToolWindow)
 let g:WhichKeyDesc_Git_CompareWithLocal = "<leader>gc git-compare-with-local"
 map <leader>gc <Action>(Compare.SameVersion)
 
+let g:WhichKeyDesc_Git_RevertCurrentChange = "<leader>gr revert-current-change"
+map <leader>gr <Action>(Vcs.RollbackChangedLines)

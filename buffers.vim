@@ -1,4 +1,5 @@
-﻿let g:WhichKeyDesc_Buffers_ListBuffers = "<leader>bb    list-buffers"
+﻿
+let g:WhichKeyDesc_Buffers_ListBuffers = "<leader>bb    list-buffers"
 map <leader>bb <Action>(RecentFiles)
 
 let g:WhichKeyDesc_Buffers_KillBuffer = "<leader>bd    kill-buffer"

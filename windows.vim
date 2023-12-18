@@ -1,3 +1,4 @@
+
 " Split window vertically
 let g:WhichKeyDesc_Windows_SplitWindowVertically = "<leader>wv split-window-vertically"
 map <leader>wv    <Action>(SplitVertically)

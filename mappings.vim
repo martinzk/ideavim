@@ -1,4 +1,5 @@
-﻿" (Optional) My own vim commands
+﻿
+" (Optional) My own vim commands
 nnoremap Y y$
 map gi <Action>(ReSharperGotoImplementation)
 map gf <Action>(FindUsages)

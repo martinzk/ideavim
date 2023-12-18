@@ -1,4 +1,5 @@
-﻿" Plugins screen
+﻿
+" Plugins screen
 let g:WhichKeyDesc_Applications_Plugins = "<leader>ak plugins"
 map <leader>ak    :action WelcomeScreen.Plugins<CR>
 

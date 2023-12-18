@@ -1,3 +1,4 @@
+
 " Call hierarchy
 let g:WhichKeyDesc_Major_Help_CallHierarchy = "<leader>mhc call-hierarchy"
 map <leader>mc      :action CallHierarchy<CR>

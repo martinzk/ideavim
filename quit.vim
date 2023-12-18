@@ -1,3 +1,4 @@
+
 " Exit (close all projects)
 let g:WhichKeyDesc_Quit_Exit = "<leader>qq exit"
 map <leader>qq   <Action>(Exit)

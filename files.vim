@@ -1,4 +1,5 @@
-﻿let g:WhichKeyDesc_Files_SaveDocument = "<leader>fs save-file"
+﻿
+let g:WhichKeyDesc_Files_SaveDocument = "<leader>fs save-file"
 map <leader>fs <Action>(SaveDocument)
 
 let g:WhichKeyDesc_Files_SaveAllDocuments = "<leader>fS save-all-files"
@@ -21,8 +22,8 @@ map <leader>fN    <Action>(NewElement)
 let g:WhichKeyDesc_Files_NewClass = "<leader>fn new-class"
 map <leader>fn    <Action>(NewClass)
 
-let g:WhichKeyDesc_Files_OverrideFileType = "<leader>fT override-file-type"
-map <leader>fT    <Action>(OverrideFileTypeAction)
+let g:WhichKeyDesc_Files_OverrideFileType = "<leader>fT scratch-change-language"
+map <leader>fT    <Action>(Scratch.ChangeLanguage)
 
 source ~/.ideavim.d/nerdtree.vim
 source ~/.ideavim.d/config.vim

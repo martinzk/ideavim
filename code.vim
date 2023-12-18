@@ -1,4 +1,5 @@
-﻿let g:WhichKeyDesc_Code_Refactorings = "<leader>cr +refactorings"
+﻿
+let g:WhichKeyDesc_Code_Refactorings = "<leader>cr +refactorings"
 
 let g:WhichKeyDesc_Code_Refactorings_Refactor = "<leader>cr. refactor"
 map <leader>cr. <Action>(Refactorings.QuickListPopupAction)

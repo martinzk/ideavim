@@ -1,4 +1,5 @@
-﻿let g:WhichKeyDesc_Files_NerdTree = "<leader>ft+ NERDTree"
+﻿
+let g:WhichKeyDesc_Files_NerdTree = "<leader>ft+ NERDTree"
 
 let g:WhichKeyDesc_Files_NerdTreeToggle = "<leader>ftt NERDTree toggle"
 map <leader>ftt :NERDTreeToggle<CR>

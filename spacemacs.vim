@@ -1,3 +1,4 @@
+
 let mapleader = " "
 
 " defaults
@@ -17,4 +18,7 @@ map Q gq
 " Use the clipboard register '*' for all yank, delete, change and put operations
 " which would normally go to the unnamed register.
 set clipboard+=unnamed
+
+set idearefactormode=keep
+
 

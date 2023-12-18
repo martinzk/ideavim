@@ -1,4 +1,5 @@
-﻿let g:WhichKeyDesc_Search_Everywhere = "<leader>ss search-everywhere"
+﻿
+let g:WhichKeyDesc_Search_Everywhere = "<leader>ss search-everywhere"
 map <leader>ss <Action>(SearchEverywhere)
 
 let g:WhichKeyDesc_Search_Find = "<leader>sf find-in-file"

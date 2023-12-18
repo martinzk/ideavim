@@ -1,3 +1,4 @@
+
 source ~/.ideavim.d/spacemacs.vim
 source ~/.ideavim.d/leader.vim
 
