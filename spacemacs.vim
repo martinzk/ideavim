@@ -19,6 +19,4 @@ map Q gq
 " which would normally go to the unnamed register.
 set clipboard+=unnamed
 
-set idearefactormode=keep
-
 
